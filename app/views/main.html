@@ -1,0 +1,312 @@
+<wrapper>
+	<header>
+		Beeinsured.com
+	</header>
+
+	<div class='headerRow hidden-mob'>
+		<div class='rt-brdr'>Home</div>
+		<div class='rt-brdr'>Term Insurance</div>
+		<div class='rt-brdr'>Health Insurance</div>
+		<div class='rt-brdr'>Critical Illness Insurance</div>
+		<div class='rt-brdr'>Personal Accident Insurance</div>
+		<div class='rt-brdr'>Claim Support</div>
+		<div>Renewal Reminder</div>
+	</div>
+	<div class='mob-headerRow visible-mob'>
+		<div class='btm-brdr'>Home</div>
+		<div class='btm-brdr'>Term Insurance</div>
+		<div class='btm-brdr'>Health Insurance</div>
+		<div class='btm-brdr'>Critical Illness Insurance</div>
+		<div class='btm-brdr'>Personal Accident Insurance</div>
+		<div class='btm-brdr'>Claim Support</div>
+		<div>Renewal Reminder</div>
+	</div>
+
+	<section class='info'>
+		<div class="sideNav">
+			<div class='navOpt'>
+				<i class="fas fa-user"></i>
+				<div>
+					Login
+				</div>
+			</div>
+			<div class='navOpt'>
+				<img src="images/phone.png"/>
+				<div>
+					Insta Connect
+				</div>
+			</div>
+			<div class='navOpt'>
+				<i class="fas fa-headphones"></i>
+				<div>
+					Live Chat<br/>
+					<small>(10am to 6pm)</small>
+				</div>
+			</div>
+		</div>
+		<div class='infoTitle text-center'>
+			Compare and <big>Buy what is best for you.</big>
+			<br/>
+			across 20 Insurance companies and 100 + Plans.
+		</div>
+		<div class='infoServices'>
+			<div class='text-center srvcBlock'>
+				<img src="images/img1.png" width="auto" />
+				<div class='label text-center'>Term Insurance</div>
+			</div>
+			<div class='text-center srvcBlock'>
+				<img src="images/img2.png" width="auto" />
+				<div class='label text-center'>Personal Accident</div>
+			</div>
+			<div class='text-center srvcBlock'>
+				<img src="images/img3.png" width="auto" />
+				<div class='label text-center'>Critical Illness</div>
+			</div>
+			<div class='text-center srvcBlock'>
+				<img src="images/img4.png" width="auto" />
+				<div class='label text-center'>Car</div>
+			</div>
+			<div class='text-center srvcBlock'>
+				<img src="images/img5.png" width="auto" />
+				<div class='label text-center'>Claim Supprt</div>
+			</div>
+		</div>
+	</section>
+
+	<section class='details'>
+		<div class='row'>
+			<div class="col-4"></div>
+			<div class="col-4 text-center">
+				<img src="images/beeOnWhy.png" class='bee-img'/>
+				<div class='bee-title'>
+					<h1>
+						<b>
+							Why bee insured
+						</b>
+					</h1>
+					<small>
+						Life changes but our commitments won't
+					</small>
+				</div>
+			</div>
+			<div class="col-4"></div>
+		</div>
+		<itemList>
+			<div class='row'>
+				<div class='col-4 text-center'>
+					<div class='circle'>
+						<img src="images/experienced.png"/>
+					</div>
+					<h3>Experienced</h3>
+					<div class='grey'>
+						Over the last decade 20000 customers across India have TRUSTED us withtheir Savings &amp; Health
+					</div>
+				</div>
+				<div class='col-4 text-center'>
+					<div class='circle'>
+						<img src="images/cust_focused.png"/>
+					</div>
+					<h3>Customer Focused</h3>
+					<div class='grey'>
+						We don't decide for you, We help you decide
+					</div>
+				</div>
+				<div class='col-4 text-center'>
+					<div class='circle'>
+						<img src="images/claim_support.png" class='customImg'/>
+					</div>
+					<h3>Claims Support</h3>
+					<div class='grey'>
+						We stand by you in the event of a chain
+					</div>
+				</div>
+			</div>
+		</itemList>
+	</section>
+
+	<section class='reminder'>
+		<div class="text-center rem-title white">
+			Renewal Reminder
+		</div>
+		<div class="text-center rem-title-desc white">
+			Everything that your insurance agent ought to do
+		</div>
+		<div class='row'>
+			<div class='left text-center'>
+				<div class='calender'>
+					<img src="images/calendarandclock.png"/>
+				</div>
+			</div>
+			<div class='right white'>
+				<h3><b>Renewal Reminder</b></h3>
+				<ul>
+					<li>
+						<span>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</span>
+					</li>
+					<li>
+						<span>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</span>
+					</li>
+					<li>
+						<span>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section class='commentsSection'>
+		<div class='comments-navbar text-center'>
+			<div class='helpTabs active'>
+				Articles
+			</div>
+			<div class='helpTabs'>
+				Videos
+			</div>
+			<div class='helpTabs'>
+				FAQ's
+			</div>
+			<div class='helpTabs'>
+				Claim
+			</div>
+			<div class='helpTabs'>
+				Support
+			</div>
+		</div>
+		<div class='itemRow' ng-repeat="post in posts">
+			<div class='content'>
+				{{post.text}}
+			</div>
+			<div>
+				<span class='blue'>
+					{{post.views | views}} <i class='fas fa-eye black'></i>
+				</span>
+				<span class='blue'>
+					{{post.comments | comments}} <i class='fas fa-comment black'></i>
+				</span>
+			</div>
+		</div>
+	</section>
+	<div>
+		<img src="images/brands.png" class='brands'/>
+	</div>
+	<footer>
+		<div class='row head'>
+			<div class='col-12'>
+				<div class='pull-left grey'>
+					<span>About beeinsured</span>|
+					<span>Why beeinsured</span>|
+					<span>FAQ's</span>
+				</div>
+				<div class='pull-right grey'>
+					<span>Privacy Policy</span>|
+					<span>Contact Us</span>|
+					<span>Email us</span>
+					<div class='text-right'>
+						<span>&copy; 2015 Company Name</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class='footer-content'>
+			<div class='ftr-col'>
+				<div class='label white'>
+					Home
+				</div>
+			</div>
+			<div class='ftr-col'>
+				<div class='label white'>
+					Life Insurance
+				</div>
+				<div class='content text-left'>
+					<div class='grey small'>Term plan</div>
+					<div class='grey small'>Child plan</div>
+					<div class='grey small'>Personal plan</div>
+					<div class='grey small'>Moneyback plan</div>
+					<div class='grey small'>Regular income plan</div>
+					<div class='grey small'>Regular income for life</div>
+					<div class='grey small'>Short term plans</div>
+					<div class='grey small'>ULIPS</div>
+					<div class='grey small'>Wealth creation</div>
+					<div class='grey small'>Immediate pension</div>
+				</div>
+			</div>
+			<div class='ftr-col'>
+				<div class='label white'>
+					Health Insurance
+				</div>
+				<div class='content text-left'>
+					<div class='grey small'>Critical illness</div>
+					<div class='grey small'>Personal accident</div>
+				</div>
+			</div>
+			<div class='ftr-col'>
+				<div class='label white'>
+					Motor
+				</div>
+				<div class='content text-left'>
+					<div class='grey small'>New car</div>
+					<div class='grey small'>Existing car</div>
+					<div class='grey small'>Break in</div>
+				</div>
+			</div>
+			<div class='ftr-col'>
+				<div class='label white'>
+					Others
+				</div>
+				<div class='content text-left'>
+					<div class='grey small'>Travel</div>
+					<div class='grey small'>Household</div>
+				</div>
+			</div>
+			<div class='ftr-col'>
+				<div class='label white'>
+					Claim Support
+				</div>
+				<div class='content text-left'>
+				</div>
+			</div>
+			<div class='ftr-col'>
+				<div class='label white'>
+					Club Robin
+				</div>
+				<div class='content text-left'>
+					<div class='grey small'>Renewal reminder</div>
+					<div class='grey small'>Robin locker</div>
+					<div class='grey small'>Lapse reimbursement</div>
+					<div class='grey small'>Renewal pickup</div>
+					<div class='grey small'>Endorsement</div>
+					<div class='grey small'>Maturity claim</div>
+				</div>
+			</div>
+		</div>
+		<div class='footer-info'>
+			<!-- <img src="images/text1.png" width="100%"/>
+			<img src="images/text2.png" width="100%"/>
+			<img src="images/text3.png" width="100%"/>
+			<img src="images/text4.png" width="100%"/>
+			<img src="images/text5.png" width="100%"/> -->
+			<div class='row'>
+				<div class='col-12 grey'>
+					Online shopping. You are doing it. Your neighour is doing it. Your aunt is doing it. Everyone you know and don't know is doing it. Online shopping is like going to a mall during a holiday season. Every day there is some sale or the other going on. And just like the mall you have almost every imaginable item available. Flipkart the online megastore,is one of the top e-commerce sited in india. Visitd by thousands of people on a daily basis, Flipkart offers a massive collection of everything from electronics to baby clothing colthing at some of the best prices thanks to various discounts available onstore.
+				</div>
+				<div class='col-12 grey'>
+					<h3>Why Flipkart?</h3>
+					Flipkart is dedicated to 100% customer delight that everything from placing your order to delivering it right to your doorstep is smooth and hassle-free. When it comes to online transactions, Flipkart ensures that all credit/debit card and net banking transactions are done through secure and trusted gateways. All your bank details are safe and secure, and will not be shared with any third-party. Flipkart offers a cash on delivery option if you need an easier payment method and excellent after sales services too.
+				</div>
+				<div class='col-12 grey'>
+					<h3>Find everything on Flipkart?</h3>
+					Online shopping. Youare doing it. Your neighour is doing it. Your aunt is doing it. Everyone you know and don't know is doing it. Online shopping is like going to a mall during a holiday season. Every day there is some sale or the other going on. And just like the mall you have almost every imaginable item available. Flipkart the online megastore,is one of the top e-commerce sited in india. Visitd by thousands of people on a daily basis, Flipkart offers a massivecollection of everything from electronics to baby clothing colthing at some of the best prices thanks to various discounts available onstore.
+				</div>
+				<div class='col-12 grey'>
+					<h3>Detailed descriptions of products</h3>
+					Online shopping. Youare doing it. Your neighour is doing it. Your aunt is doing it. Everyone you know and don't know is doing it. Online shopping is like going to a mall during a holiday season. Every day there is some sale or the other going on. And just like the mall you have almost every imaginable item available. Flipkart the online megastore,is one of the top e-commerce sited in india. Visitd by thousands of people on a daily basis, Flipkart offers a massivecollection of everything from electronics to baby clothing colthing at some of the best prices thanks to various discounts available onstore.
+				</div>
+			</div>
+		</div>
+	</footer>
+</wrapper>

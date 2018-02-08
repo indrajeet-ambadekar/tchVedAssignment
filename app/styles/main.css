@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+  margin-bottom: 30px;
+}
+
+header{
+  display: block;
+  text-align: center;
+  padding: 3%;
+  font-size: 3em;
+  color: #ed6e33;
+  font-weight: bold;
+}
+
+.headerRow{
+  background: #ef9235;
+  padding:10px 5px;
+  color: #5d4d3e;
+  font-size: 18px;
+  width: 100%;
+  display: table;
+  border-top: 3px solid #504f4b;
+}
+
+.headerRow div {
+  display: table-cell;
+  text-align: center;
+  cursor: pointer;
+}
+.headerRow div:hover{
+  text-decoration: underline;
+}
+
+.rt-brdr{
+  border-right:2px solid #5d4d3e;
+}
+
+.info{
+  position: relative;
+  min-height: 550px;
+  width: 100%;
+  background: url('../images/hiveColor.png') no-repeat;
+  background-size: 100% 100%;
+  border-bottom:3px solid #e6e6e6;
+}
+
+.sideNav{
+  position: absolute;
+  z-index: 5;
+  top: 20%;
+  right: 10px;
+  width: 90px;
+}
+
+.navOpt{
+  width: 80px;
+  height: 50px;
+  background: #636363;
+  margin: 5px;
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+
+.navOpt i{
+  font-size: 28px;
+  padding-bottom: 3px;
+  margin-top: -5px;
+}
+
+.navOpt img{
+  margin: 0 auto;
+  display: block;
+  width: 40%;
+  margin-bottom: 7px;
+  margin-top: -8px;
+}
+
+.navOpt div{
+  font-size: 13px;
+}
+
+.navOpt small{
+  font-size: 10px;
+}
+
+.infoTitle{
+  padding: 3%;
+  font-size: 34px;
+  color: #5d410d;
+}
+
+.infoTitle big{
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.infoServices{
+  display: table;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.srvcBlock{
+  display: table-cell;
+}
+
+.infoServices .label{
+  padding: 5px;
+  color: #4a4647;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.details{
+  padding: 3%;
+}
+
+.row{
+  display: table;
+  width: 100%;
+}
+
+.col-4{
+  width: 33.33%;
+  display: table-cell;
+  position: relative;
+}
+
+.col-3{
+  width: 25%;
+  display: table-cell;
+  position: relative;
+}
+
+.col-9{
+  width: 75%;
+  display: table-cell;
+  position: relative;
+}
+
+.col-12{
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+.bee-img{
+  position: absolute;
+  top: -7px;
+  right: 0;
+}
+
+.bee-title{
+  color: #3b393a;
+  margin-top: 60px;
+  font-size: 2em;
+}
+
+.bee-title small{
+  font-size: 16px;
+}
+
+h1{
+  margin: 0px;
+}
+
+.circle{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #ef9235;
+  margin: 0 auto;
+  margin-top: 16%;
+  display: table;
+}
+
+.circle img{
+  display: table-cell;
+  margin: 0 auto;
+  margin-top: 19px;
+}
+
+.grey{
+  color:#8f8f8f;
+}
+
+itemList h3{
+  font-size: 25px;
+}
+
+.reminder{
+  min-height: 400px;
+  background: url('../images/hiveOrange.png');
+  border-bottom:3px solid #e1e1e1;
+}
+
+.rem-title{
+  font-size: 2.5em;
+  padding-top: 3%;
+  font-weight: bold;
+}
+
+.rem-title-desc{
+  padding-top: 10px;
+  padding-bottom: 40px;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.white{
+  color: #fff;
+}
+
+.reminder h3{
+  font-size: 1.5em;
+}
+
+.calender{
+  margin: 0 auto;
+  background: #fff;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 12%;
+  text-align: center;
+}
+
+.calender img{
+  margin: 0 auto;
+  margin-top: 37px;
+}
+
+.left{
+  width: 30%;
+  float: left;
+}
+.right{
+  width: 70%;
+  float: right;
+}
+
+ul{
+  padding: 0px 18px;
+  font-size: 19px;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 10%;
+}
+
+li span{
+  font-size: 17px;
+}
+
+.comments-navbar{
+  margin-top: 20px;
+  border-top: 2px solid #e1e1e1;
+  border-bottom: 2px solid #e1e1e1;
+  background: #edeaeb;
+}
+
+.helpTabs{
+  background: #ed9237;
+  width: 200px;
+  font-size: 22px;
+  display: inline-block;
+  border-bottom: 3px solid #c2c2c2;
+  padding: 10px 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.active{
+  background: #fff;
+  border-bottom: 3px solid #ed9237;
+}
+
+.itemRow{
+  padding: 2% 5%;
+  border-bottom:2px solid #e1e1e1;
+}
+
+.itemRow span{
+  margin-right: 30px;
+}
+
+.itemRow i{
+  margin-left: 5px;
+}
+
+.itemRow .content{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.blue{
+  color:#015bc4;
+}
+
+.black{
+  color:#303030;
+}
+
+.brands{
+  width: 100%;
+}
+
+footer{
+  font-family: 'Open Sans', sans-serif;
+  background: #555555;
+  color: #fff;
+}
+
+.pull-left{
+  float: left;
+}
+
+.pull-right{
+  float: right;
+  margin-right: 30px;
+}
+
+footer .head{
+  padding: 5px;
+}
+
+footer .head .pull-left span{
+  padding: 10px;
+  font-size: 13px;
+}
+
+footer .head .pull-right span{
+  padding: 10px;
+  font-size: 13px;
+}
+
+footer .grey{
+  color: #acacac;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.ftr-col{
+  display: inline-grid;
+  width: calc(98%/7);
+}
+
+.footer-content{
+  margin: 5px 20px 20px 20px;
+  padding: 20px 0px;
+  border-top: 1px solid #707070;
+  border-bottom: 1px solid #707070;
+}
+
+.ftr-col .label{
+  font-weight: bold;
+}
+
+.ftr-col .small{
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.footer-info{
+  margin: 5px 40px 20px 40px;
+  padding: 20px 0px;
+}
+
+.footer-info img{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 1024px){
+  .customImg{
+    margin-top: 55px !important;
+  }
+  .visible-mob{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px){
+  .hidden-mob{
+    display: none;
+  }
+  .visible-mob{
+    display: block;
+  }
+  .srvcBlock {
+    display: block;
+  }
+  .infoTitle {
+    font-size: 19px;
+  }
+  .infoTitle big {
+    font-size: 23px;
+  }
+  .mob-headerRow div{
+    border-bottom: 2px solid #fff;
+    background: #ef9235;
+    padding: 5px 15px;
+  }
+  .srvcBlock img{
+    height: 80px;
+  }
+  .info {
+    min-height: 825px;
+  }
+  .col-4{
+    width: 100%;
+    display: block;
+  }
+  .bee-img {
+    top: -57%;
+    width: 58px;
+  }
+  .sideNav {
+    top: 44%;
+    right: 0px;
+  }
+  .navOpt {
+    width: 60px;
+    height: 46px;
+    padding-top: 13px;
+    padding-bottom: 21px;
+  }
+  .navOpt i {
+    font-size: 18px;
+  }
+  .infoServices {
+    position: relative;
+  }
+  .details {
+    padding: 30px 3%;
+  }
+  .reminder {
+    min-height: auto;
+    padding: 5%;
+    background-size: auto;
+  }
+  .left,.right {
+    width: 100%;
+    float: none;
+  }
+  .helpTabs {
+    width: 19%;
+    font-size: 17px;
+  }
+  .pull-left, .pull-right{
+    float: none;
+  }
+  .ftr-col {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .brands {
+    width: 100%;
+    margin: 30px 0px;
+  }
+  .itemRow {
+    padding: 5% 8%;
+  }
+  .itemRow .content {
+    font-size: 15px;
+  }
+  .col-12{
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+  }
+}
